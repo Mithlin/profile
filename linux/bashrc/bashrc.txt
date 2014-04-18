@@ -65,7 +65,7 @@ case "$TERM" in
 xterm*|rxvt*)
     # PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     # relpalce to #line host:dir user
-    PS1='\[\e[36;1m\]#\# \h:\W \u\$ \[\e[0m\]'
+    PS1='\[\e[33;1m\]#\# \h:\W \u\$ \[\e[0m\]'
     ;;
 *)
     ;;
